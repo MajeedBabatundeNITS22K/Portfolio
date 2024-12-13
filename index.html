@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Majeed Babatunde</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+      
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Majeed Babatunde</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+         
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="https://github.com/MajeedBabatundeNITS22K/Portfolio/blob/main/myPic.jpeg?raw=true" alt="Majeed profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Majeed Babatunde</h1>
+        <p class="section__text__p2">IT Engineering student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/199NZgc8bj-qmx124LjbNGdwVjU3lqi4W/view?usp=drivesdk')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://github.com/MajeedBabatundeNITS22K/Portfolio/blob/main/linkedin.png?raw=true"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/majeed-babatunde-a57497252/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"
+          />
+          <img
+            src="https://github.com/MajeedBabatundeNITS22K/Portfolio/blob/main/github.png?raw=true"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/MajeedBabatundeNITS22K'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <img
+        src="https://camo.githubusercontent.com/2366b34bb903c09617990fb5fff4622f3e941349e846ddb7e73df872a9d21233/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966"
+        alt="Profile picture"
+        class="about-pic"
+      />
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://github.com/MajeedBabatundeNITS22K/Portfolio/blob/main/experience.png?raw=true"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Centria UAS</h3>
+              <p>B.sc. IT Engineering <br />2022-Present</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://github.com/MajeedBabatundeNITS22K/Portfolio/blob/main/experience.png?raw=true"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Summit University</h3>
+              <p>B.Sc. Computer Science<br />2021-2022</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am an enthusiastic IT Engineering student at Centria University of Applied Sciences, with a passion for solving real-world challenges through technology. In addition to my technical skills, I bring strong teamwork, problem-solving, and adaptability to every project I undertake. I am particularly driven by opportunities to apply my knowledge to impactful initiatives, such as developing energy-efficient systems and creating user-centric platforms. Outside of academics, I’m constantly exploring new technologies, enhancing my skill set, and staying updated with industry trends. My ultimate goal is to grow as a professional while contributing to projects that make a difference in people’s lives.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/arrow.png?raw=true"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    
+    </section>
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <img src="https://img.freepik.com/premium-vector/web-developer-with-computer-vector-concept-illustration_985946-128.jpg" alt="programs classroom" class="about-pic">
+        <p class="experience-paragraph">
+          I have gained valuable experience through both academic and professional roles that have strengthen my skills in IT and software development. As an intern at AlMlearning, I developed video editing tools and Python-based programs for data analysis, enhancing my ability to work with data and create practical solutions. Additionally, my role as an Office Clerk at Computex Consult exposed me to managing workflows, collaborating in dynamic teams, and ensuring the completion of critical projects. These experiences have strengthened my technical expertise, problem-solving skills, and adaptability, preparing me to excel in innovative and challenging environments.
+        </p>
+      </section>
+      <img
+        src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/arrow.png?raw=true"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://github.com/MajeedBabatundeNITS22K/Portfolio/blob/main/email.png?raw=true"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">majeedbabs22@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://github.com/MajeedBabatundeNITS22K/Portfolio/blob/main/linkedin.png?raw=true"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Majeed Babatunde. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
